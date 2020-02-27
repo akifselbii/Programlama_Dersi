@@ -1,4 +1,5 @@
-#Bir liste veriliyor. Liste içindeki verilerin alt dizilerinde toplamı maks olan değer kaçtır?Recursive
+#Mehmet Akif SELBİ
+#Liste içindeki verilerin alt dizilerinde toplamı maks olan değer kaçtır?Recursive
 
 def max_of_two(a,b):
     if(a>b):
