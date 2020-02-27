@@ -1,4 +1,5 @@
-#Bir liste veriliyor. Liste içindeki verilerin alt dizilerinde toplamı maks olan değer kaçtır?
+#Mehmet Akif SELBİ
+#Liste içindeki verilerin alt dizilerinde toplamı maksimum olan değer kaçtır?
 def my_f_2(list_1 = [4,-3,5,-2,-1,2,6,-2]):
     maxSum = 0
     n = len(list_1)
