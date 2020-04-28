@@ -1,9 +1,10 @@
 #Mehmet Akif SELBİ 170401041
 
 
-'''Parametre olarak bir array ve bir index alır. Aldigi indexteki degeri
+"""
+Parametre olarak bir array ve bir index alır. Aldigi indexteki degeri
 sag ve sol cocugu ile karsilastirir kendisinden kucuk bir deger varsa onunla yer degistirir
-'''
+"""
 def min_heapify(array,i):
     left=2*i+1
     right=2*i+2
@@ -28,7 +29,7 @@ def build_min_heap(array):
 
 
 """
-Parametre olarak array alir. ilk elemanla son elemani yer değiştirir ve sonra son elemani siler. min_heapify
+Parametre olarak bir array alir. ilk elemanla son elemani yer değiştirir ve sonra son elemani siler. min_heapify
 fonksiyonuna göndererek arrayi tekrardan min heap yapar
 """
 def heapsort(array):
