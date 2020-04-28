@@ -24,7 +24,7 @@ Parametre olarak bir array alır .Arraydeki tüm elemanlari sirayla fonksiyona g
 min heap sekline donusturur.
 """
 def build_min_heap(array):
-    for i in reversed(range(len(array))//2)
+    for i in reversed(range(len(array))//2):
         min_heapify(array,i)
 
 
